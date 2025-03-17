@@ -5,40 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tutorials - Code Learner</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        /* Additional styles for an ordered list appearance */
-        .tutorial-list {
-            list-style-type: none; /* Remove default list styling */
-            padding: 0; /* Remove padding */
-        }
-        .tutorial-list li {
-            margin: 5px 0; /* Add space between items */
-        }
-    </style>
 </head>
 <body>
     <header>
         <h1>Tutorials</h1>
+        <p>Explore coding tutorials to enhance your skills!</p>
+        <input type="text" id="searchInput" placeholder="Search tutorials...">
     </header>
 
     <nav>
         <a href="index.html">Home</a>
         <a href="tutorials.html">Tutorials</a>
         <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
     </nav>
 
-    <section>
+    <section class="content">
         <h2>Available Tutorials</h2>
-        <ul class="tutorial-list">
-            <li><a href="#">HTML Tutorial</a></li>
-            <li><a href="#">CSS Tutorial</a></li>
-            <li><a href="#">JavaScript Tutorial</a></li>
-        </ul>
+        <div class="tutorial-list">
+            <div class="tutorial-item">
+                <h3>HTML Basics</h3>
+                <p class="details">Learn the structure of a webpage.</p>
+            </div>
+            <div class="tutorial-item">
+                <h3>CSS Styling Guide</h3>
+                <p class="details">Understand how to style your page.</p>
+            </div>
+            <div class="tutorial-item">
+                <h3>JavaScript Fundamentals</h3>
+                <p class="details">Make your websites interactive.</p>
+            </div>
+        </div>
     </section>
 
     <footer>
-        <p>Contact: example@gmail.com</p>
+        <p>&copy; 2025 Code Learner - All rights reserved.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
