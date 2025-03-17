@@ -12,4 +12,4 @@ live-server --no-browser
 2. Refresh the URL in simple browser to see the output
 
 
-Delpoy Link- https://tech-blog.bytexl.live/
+Delpoy Link- https://xmzb7f-8080.bytexl.dev/
